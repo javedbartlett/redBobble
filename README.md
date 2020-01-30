@@ -2,12 +2,6 @@
 
 > RedBobble Proxy Server
 
-## Related Projects
-
-  - https://github.com/Nutritious-Insurance/philipService/
-  - https://github.com/Nutritious-Insurance/johnService/
-  - https://github.com/Nutritious-Insurance/javService/
-
 ## Table of Contents
 
 1. [Setup](#Setup)
@@ -18,7 +12,7 @@
 
 1. Clone this repo using this command:
 ```bash
-git clone --recurse-submodules https://github.com/Nutritious-Insurance/philipProxy.git
+git clone --recurse-submodules https://github.com/javedbartlett/redBobble/tree/master/allServices-deployReady
 ```
 2. Install dependencies:
 ```bash
