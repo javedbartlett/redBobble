@@ -12,7 +12,7 @@
 
 1. Clone this repo using this command:
 ```bash
-git clone --recurse-submodules https://github.com/javedbartlett/redBobble/allServices-deployReady.git
+git clone --recurse-submodules https://github.com/javedbartlett/redBobble/tree/master/allServices-deployReady.git
 ```
 2. Install dependencies:
 ```bash
