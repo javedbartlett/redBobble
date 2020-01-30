@@ -1,0 +1,100 @@
+#backButton:hover, #nextButton:hover {
+  background-color: #ececec;
+}
+
+#backButton, #nextButton {
+  background-color: white;
+  border-radius: 50%;
+  border: 1px;
+  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+  color: #2a2a2a;
+  font-size: 30pt;
+  font-family: Arial, Helvetica, sans-serif;
+  outline: none;
+  width: 50px;
+  position: absolute;
+  top: 180px;
+}
+
+#backButton {
+  left: 5px;
+}
+
+#nextButton {
+  right: 5px;
+}
+
+.carousel {
+  margin: 20px;
+  overflow: hidden;
+  width: 1600px;
+}
+
+.carouselContainer {
+  display: inline-block;
+  height: 100%;
+  padding: 10px;
+}
+
+.carouselTransform {
+  margin: 0px;
+  padding: 0px;
+  float:left;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.carouselListItem {
+  position: relative;
+  width: 380px;
+  height: 380px;
+}
+
+.carouselListItem img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: 100%;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+.outerBox {
+  position: relative;
+  width: 1640px;
+}
+
+.styleName {
+  color: #444444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  font-weight: bold;
+  position: relative;
+  bottom: -8px;
+}
+
+.stylePrice {
+  color: #a5acb9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15pt;
+  font-weight: 100;
+  position: relative;
+  bottom: -15px;
+}
+
+.title {
+  color: #353434;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+  font-weight: 600;
+  position: relative;
+    left: 210px;
+    top: 20px;
+  -webkit-transform:scale(1.15,1);
+  -moz-transform:scale(1.15,1);
+  -ms-transform:scale(1.15,1);
+  -o-transform:scale(1.15,1);
+  transform:scale(1.15,1);
+}
